@@ -40,7 +40,7 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   return object;
 }
 
-destructivelyUpdateObjectWithKeyAndValue(recipes, "Lamb Chopes", "Lamb");
+destructivelyUpdateObjectWithKeyAndValue(recipes, "Lamb Chops", "Lamb");
 
 
 
