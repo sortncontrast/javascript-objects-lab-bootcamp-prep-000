@@ -59,7 +59,7 @@ deleteFromObjectByKey(recipes, "Lamb Chops");
 
 
 
-//Test 6: 
+//Test 6: Delete
 
 
 
