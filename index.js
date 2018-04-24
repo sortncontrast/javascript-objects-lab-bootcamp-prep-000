@@ -46,7 +46,14 @@ destructivelyUpdateObjectWithKeyAndValue(recipes, "Lamb Chopes", "Lamb");
 
 
 
+//Test 5: Delete From Clone of Object and Return New Object 
 
+function deleteFromObjectByKey(object, key) {
+  var newObject = Object.assign({}, object);
+  delete newObject[key];
+}
+
+deleteFromObjectByKey(recipes, "Lamb Chops");
 
 
 
