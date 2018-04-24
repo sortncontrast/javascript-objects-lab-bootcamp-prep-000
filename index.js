@@ -60,7 +60,7 @@ deleteFromObjectByKey(recipes, "Lamb Chops");
 
 
 
-//Test 7: Destructively Delete Key-Value Pair
+//Test 7 and 8: Destructively Delete Key-Value Pair
 
 function destructivelyDeleteFromObjectByKey(object,key) {
   delete object[key];
